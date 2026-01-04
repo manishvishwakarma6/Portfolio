@@ -33,12 +33,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 /* LOGO on left */
-.brand img {
+/* .brand img {
   height: 40px;
+} */
+
+.brand img {
+  width: 100px;   /* increase as needed */
+  height: auto;   /* keeps aspect ratio */
 }
 
 /* NAV LINKS (desktop) */
@@ -1529,7 +1534,7 @@ body {
 .social-icons-list {
     list-style: none;
     margin-top: -20px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
